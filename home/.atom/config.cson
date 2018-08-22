@@ -1,0 +1,26 @@
+"*":
+  "atom-ctags":
+    buildTimeout: 30000
+  "clang-format":
+    executable: "/usr/bin/clang-format"
+  core:
+    autoHideMenuBar: true
+    customFileTypes:
+      "source.cpp": [
+        "h.template"
+      ]
+    disabledPackages: [
+      "symbols-view"
+      "atom-ctags"
+    ]
+    packagesWithKeymapsDisabled: [
+      "autocomplete-clang"
+    ]
+    telemetryConsent: "no"
+  editor:
+    scrollSensitivity: 80
+  "exception-reporting":
+    userId: "c6217e49-ef83-4b4a-8871-89a5cd4439e4"
+  firacode: {}
+  welcome:
+    showOnStartup: false
